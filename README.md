@@ -15,7 +15,7 @@ https://chromedriver.chromium.org/downloads
 generate app-specific password for a gmail account and use that
 
 usage:
-app.py <email> <dayofweek> <refresh>
+app.py email dayofweek refresh
 where
   email - email to notify
   dayofweek - if you want an alert for a specific day (use 'any' to search all future days)
