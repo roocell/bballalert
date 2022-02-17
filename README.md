@@ -15,14 +15,18 @@ https://chromedriver.chromium.org/downloads
 generate app-specific password for a gmail account and use that
 
 usage:
+```
 app.py email dayofweek refresh
 where
   email - email to notify
   dayofweek - if you want an alert for a specific day (use 'any' to search all future days)
   refresh   - time to wait before checking again
-
+```
 example) check for friday opening, 10 minute refresh
+```
 app.py bob@hotmail.com friday 600
-
+```
 example) check for any opening, 1 minute refresh
+```
 app.py bob@hotmail.com any 60
+```
